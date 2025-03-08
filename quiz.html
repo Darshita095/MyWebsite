@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>💘 How Well Do You Know Me? 💘</h1>
+        <a href="index.html">Back to Home</a>
+    </header>
+
+    <section>
+        <h2>Answer these questions! 😍</h2>
+        
+        <form id="quiz-form">
+            <!-- Question 1 -->
+            <h3>Where did we first meet? </h3>
+            <label><input type="radio" name="q1" value="college"> College </label><br>
+            <label><input type="radio" name="q1" value="cafe"> A Café </label><br>
+            <label><input type="radio" name="q1" value="party"> A Party </label><br>
+            <label><input type="radio" name="q1" value="gym"> Gym </label><br>
+
+            <!-- Question 2 -->
+            <h3>What do I like eating the most? </h3>
+            <label><input type="radio" name="q2" value="pizza"> Pizza </label><br>
+            <label><input type="radio" name="q2" value="chinese"> Chinese</label><br>
+            <label><input type="radio" name="q2" value="dessert"> Dessert</label><br>
+            <label><input type="radio" name="q2" value="rajma chawal"> Rajma Chawal </label><br>
+
+            <!-- Question 3 -->
+            <h3>What is my favourite Movie genere</h3>
+            <label><input type="radio" name="q3" value="horror"> Horror</label><br>
+            <label><input type="radio" name="q3" value="thriller"> Thriller</label><br>
+            <label><input type="radio" name="q3" value="romance"> Romance</label><br>
+            <label><input type="radio" name="q3" value="comedy"> Comedy</label><br>
+            
+            <!-- Question 4-->
+            <h3>If I get mad at you, what’s the best way to make me smile again?</h3>
+            <label><input type="radio" name="q4" value="give me a suprise hug">Give me a surprise Hug</label><br>
+            <label><input type="radio" name="q4" value="buy me my favorite food"> Buy me my favorite food </label><br>
+            <label><input type="radio" name="q4" value="say im sorry in the cutest way possible"> Say “I’m sorry” in the cutest way possible</label><br>
+            <label><input type="radio" name="q4" value="Kiss me until I forget why I was mad">  Kiss me until I forget why I was mad </label><br>
+
+            <!-- Question 5 -->
+            <h3>What’s one thing I’d love for you to do but I’d never say it directly?</h3>
+            <label><input type="radio" name="q5" value="pull me closer when I act shy"> Pull me closer when I act shy</label><br>
+            <label><input type="radio" name="q5" value="kiss me when I least expect it"> Kiss me when I least expect it</label><br>
+            <label><input type="radio" name="q5" value="look into my eyes until I blush"> Look into my eyes until I blush</label><br>
+            <label><input type="radio" name="q5" value="challenge me and see who gives in first"> Challenge me and see who gives in first </label><br>
+
+            <!-- Question 6 -->
+            <h3>What is my Zodiac sign?</h3>
+            <label><input type="radio" name="q6" value="libra"> Libra</label><br>
+            <label><input type="radio" name="q6" value="saggitarius"> Saggitarius</label><br>
+            <label><input type="radio" name="q6" value="capricorn"> Capricorn</label><br>
+            <label><input type="radio" name="q6" value="gemini"> Gemini</label><br>
+
+            <!-- Question 7 -->
+            <h3>What dress I'm most comfortable in?</h3>
+            <label><input type="radio" name="q7" value="crop top"> Crop Top</label><br>
+            <label><input type="radio" name="q7" value="skin fit">Skin Fit</label><br>
+            <label><input type="radio" name="q7" value="long dresses"> Long Dresses</label><br>
+            <label><input type="radio" name="q7" value="oversized">  Oversized</label><br>
+
+            <!-- Question 8 -->
+            <h3>What is the name of my High School?</h3>
+            <label><input type="radio" name="q8" value="MPS"> MPS</label><br>
+            <label><input type="radio" name="q8" value="DPS"> DPS</label><br>
+            <label><input type="radio" name="q8" value="RPS"> RPS</label><br>
+            <label><input type="radio" name="q8" value="salwan public school"> Salwan Public School</label><br>
+
+            <!-- Question 9 -->
+            <h3>In which city/place did I live as a child?</h3>
+            <label><input type="radio" name="q9" value="alwar"> Alwar</label><br>
+            <label><input type="radio" name="q9" value="chandigrah"> Chandigarh</label><br>
+            <label><input type="radio" name="q9" value="dharuhera"> Dharuhera</label><br>
+            <label><input type="radio" name="q9" value="pune"> Pune</label><br>
+
+            <!-- Question 10 -->
+            <h3>Where is my birth mark located in my body</h3>
+            <label><input type="radio" name="q10" value="arms"> Arms</label><br>
+            <label><input type="radio" name="q10 value="back"> Back</label><br>
+            <label><input type="radio" name="q10" value="stomach"> Stomach</label><br>
+            <label><input type="radio" name="q10" value="thighs"> Thigh</label><br>
+
+
+            <button type="button" onclick="checkQuiz()">Submit</button>
+
+
+        </form>
+        <p id="quiz-result"></p>
+<p id="quiz-score"></p> <!-- This will show the score -->
+
+
+        <p id="quiz-result"></p>
+    </section>
+   
+    <footer>
+        <p>Made with ❤️ by Darshita</p>
+    </footer>
+</body>
+</html>
